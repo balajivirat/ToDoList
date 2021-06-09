@@ -1,0 +1,44 @@
+<!-- <button (click) = "showelements = !showelements">Toggle</button>
+<h1 *ngIf= "showelements; else elseblock">ShowElements</h1>
+<h1 [hidden] = "showelements">HiddenElements</h1>
+<ng-template #elseblock>
+    <h1>ElseBlock</h1>
+</ng-template> -->
+
+<!-- <h1>PIPE</h1>
+<h2>DATEPIPE</h2>
+<div>{{today}}</div>
+<div>{{today | date:'dd-MMM-yyyy'}}</div>
+
+<h2>STRINGPIPE</h2>
+<div>{{name}}</div>
+<div>{{name | uppercase}}</div>
+<div>{{name | lowercase}}</div>
+
+<h2>NumberPIPE</h2>
+<div>{{mynumber}}</div>
+<div>{{mynumber | number}}</div>
+<div>{{mynumber | number: '7.1-2'}}</div>
+
+<h2>CurrencyPIPE</h2>
+<div>{{mycurrency}}</div>
+<div>{{mycurrency | currency}}</div>
+<div>{{mycurrency | currency: 'INR'}}</div>
+
+<h2>PercentPIPE</h2>
+<div>{{mynumber}}</div>
+<div>{{mynumber | percent}}</div>
+<div>{{mynumber | percent: '7.1-2'}}</div> -->
+
+<!-- <input type="text" [(ngModel)]= "animalname" placeholder="enter animal name">
+<h1>Animals List</h1>
+<ul>
+    <li *ngFor= "let animal of animals | searchfilter: animalname">{{animal}}</li>
+</ul> -->
+
+<h1>Parent</h1>
+<button (click)="increment();">Increment</button>
+<span>{{count}}</span>
+<button (click)= "decrement()">Decrement</button>
+<app-home [counter]="count"></app-home>
+<!-- <app-child [counter]="count"></app-child> -->
